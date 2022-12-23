@@ -2513,3 +2513,45 @@ JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: 
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1671657044635	Marionette	INFO	Stopped listening on port 34313
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671794901813	geckodriver	INFO	Listening on 127.0.0.1:54557
+1671794902324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileErYYMG"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671794904285	Marionette	INFO	Marionette enabled
+1671794904297	Marionette	INFO	Listening on port 39337
+Read port: 39337
+WebDriver BiDi listening on ws://127.0.0.1:52323
+1671794904613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileErYYMG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52323/devtools/browser/1ca4cee7-f138-4dc1-9194-d0fd54c36c22
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671795225621	geckodriver	INFO	Listening on 127.0.0.1:40831
+1671795225636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea6S1mF"
+[GFX1-]: glxtest: VA-API test failed: missing or old libva-drm library.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671795227215	Marionette	INFO	Marionette enabled
+1671795227228	Marionette	INFO	Listening on port 45585
+Read port: 45585
+WebDriver BiDi listening on ws://127.0.0.1:36237
+1671795227506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea6S1mF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36237/devtools/browser/1a73be30-a07a-406b-910d-f4f32ca92d89
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

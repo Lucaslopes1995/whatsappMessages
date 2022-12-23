@@ -13,11 +13,37 @@ import random
 
 
 
+
 s = Service('C:/Users/.../chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 
+# driver = webdriver.Firefox()
+
+
+
+def enviar_midia(midia):
+  driver.find_element(By.CSS_SELECTOR,"span[data-icon='clip']").click()
+  attach = driver.find_element(By.CSS_SELECTOR,"input[type='file']")
+  attach.send_keys(midia)
+  time.sleep(3)
+  send = driver.find_element(By.CSS_SELECTOR,"span[data-icon='send']")
+  print(send)
+  send.click()
+
+  # while (len(driver.find_elements(By.CSS_SELECTOR,"spanaria-label=' Entregue '"))<1 or len(driver.find_elements(By.CSS_SELECTOR,"span[aria-label=' Lida ']"))<1):
+  #   print(driver.find_elements(By.CSS_SELECTOR,"spanaria-label=' Entregue '"))
+  #   print(driver.find_elements(By.CSS_SELECTOR,"span[aria-label=' Lida ']"))
+
+  #   time.sleep(1)
+
+
+
+  time.sleep(3)
+
 
 texto1 = "Olá, pode me ajudar?"
+
+midia = "/home/lucas/Área de Trabalho/teste/logo.webp"
 
 # textoCode = urllib.parse.quote(texto1)
 
@@ -35,10 +61,10 @@ for i, mensagem in enumerate(contatos['nome']):
   nome = contatos.loc[i,"nome"]
   telefone = contatos.loc[i,"telefone"]
 
-  print(nome,telefone)
+  # print(nome,telefone)
 
   driver.find_elements(By.XPATH,'//*[@id="side"]/div[1]/div/div/div[2]/div/div[2]')[0].send_keys("lucas soares")
-  print("lucas soares")
+  # print("lucas soares")
 
   driver.find_elements(By.XPATH,'//*[@id="side"]/div[1]/div/div/div[2]/div/div[2]')[0].send_keys(Keys.ENTER)
 
@@ -51,10 +77,10 @@ for i, mensagem in enumerate(contatos['nome']):
   # print("click")
 
   while len(driver.find_elements(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div'))<1:
-    print("botao mensagem")
+    # print("botao mensagem")
     time.sleep(1)
 
-  print("input mensagem")
+  # print("input mensagem")
 
   fone = 5535999843637
 
@@ -78,11 +104,11 @@ for i, mensagem in enumerate(contatos['nome']):
 
   time.sleep(5)
 
-  print(driver.find_elements(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div'))
-
   driver.find_elements(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div')[0].send_keys("!")
 
-  driver.find_elements(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div')[0].send_keys(Keys.ENTER)
+  enviar_midia(midia)
+
+  # driver.find_elements(By.XPATH,'//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div')[0].send_keys(Keys.ENTER)
 
   tempo =random.uniform(0,2)
 
